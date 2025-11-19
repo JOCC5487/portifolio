@@ -1,0 +1,67 @@
+<!--Tipo de Documento que será aberto para codar, no caso o tipo de documento é o html mais recente-->
+<!DOCTYPE html>
+<!--Linguagem padrão que será usada no site-->
+<html lang="pt-br">
+
+<!--Head onde vou botar todas as informações do documento e os metadados (Mente) -->
+
+<head>
+    <!--Seria um metadado que puxa os caracteres especiais e acentuação. (Configuração que mais usam no HTML para sites)-->
+    <meta charset="UTF-8">
+    <!--Configuração do site para que ele se adapte dependendo do dispositivo-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Nome da Aba-->
+    <title>Portifólio</title>
+    <!--Linkar o CSS ao HTML-->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<!--Esqueleto, corpo do site-->
+
+<body>
+    <!--header, seria onde vai ficar as coisas no cabeçalho do site-->
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre</a>
+        </nav>
+
+    </header>
+
+    <!--main, seria onde vai ficar as coisas na parte do meio do site-->
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <!--h1, título principal(vai de h1 a h6)-->
+            <h1 class="apresentacao__conteudo__titulo "> Eleve seu negócio digital a outro nível
+                <!--strong, deixa o texto demarcado-->
+                <!--O class mostra que ele é de uma classe do CSS falando qual definição tal parte vai ter-->
+                <strong class="titulo-destaque"> com um front-end de qualidade! </strong>
+            </h1>
+            <!--p, parágrafo-->
+
+            <p class="apresentacao__conteudo__texto">sei la oq eu escrevo, mas ta ai o site teste</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <!--a, direcionar pessoas para links, button é usado para botões dentro do site como confirmar algo ou ir para outra aba do próprio site-->
+                <a class="apresentacao__links__navegacao" href="http://google.com">
+                    <img src="./assets/download (1).jpeg" alt="sei la" width="30" height="30">
+                    Link
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://yahoo.com">
+                    <img src="./assets/download (2).jpeg" alt="sei la" width="30" height="30">
+                    Batata</a>
+                <a class="apresentacao__links__navegacao" href="https://bing.com">
+                    <img src="./assets/download (3).jpeg" alt="sei la" width="30" height="30">
+                    seila</a>
+            </div>
+        </section>
+        <!--img, src = nome da imagem alt = descrição da imagem-->
+        <img class="apresentacao__imagem" src="./assets/download.jpeg" alt=test>
+    </main>
+    <!--footer, seria onde vai ficar as coisas no rodapé do site-->
+    <footer class="rodape">
+        <p>Feito por JOCC</p>
+    </footer>
+</body>
+
+</html>
